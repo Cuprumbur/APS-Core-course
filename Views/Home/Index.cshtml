@@ -1,0 +1,16 @@
+@model IEnumerable<Pluralsight.Models.Restaurant>
+@{
+    ViewData["Title"] = "Index";
+}
+<!DOCTYPE html>
+<body>
+    <table>
+        @foreach (var restaurant in Model)
+        {
+        <tr>
+            <td>@restaurant.Id</td>
+            <td>@restaurant.Name</td>
+        </tr>
+        }
+    </table>
+</body>
