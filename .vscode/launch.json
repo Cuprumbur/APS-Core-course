@@ -10,7 +10,6 @@
             "request": "launch",
             "preLaunchTask": "build",
             "program": "${workspaceFolder}/bin/Debug/netcoreapp3.0/pluralsight.dll",
-            "args": ["watch"],
             "cwd": "${workspaceFolder}",
             "stopAtEntry": false,
             "serverReadyAction": {
